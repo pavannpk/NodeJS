@@ -1,0 +1,16 @@
+{
+  "name": "ejs_rest_api",
+  "version": "1.0.0",
+  "description": "REST_API",
+  "main": "ejsrestapimdb.js",
+  "scripts": {
+    "start": "nodemon ejsrestapimdb.js"
+  },
+  "author": "PAVAN KUMAR",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4"
+  }
+}

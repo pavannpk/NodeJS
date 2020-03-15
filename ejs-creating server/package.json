@@ -1,0 +1,14 @@
+{
+  "name": "ejs-creating-server",
+  "version": "1.0.0",
+  "description": "ejs creating server",
+  "main": "ejs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PAVAN KUMAR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

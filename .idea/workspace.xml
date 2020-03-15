@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b57d07e-1df7-49b4-b0bd-70ac0e01dfc8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1QRuxN26lgtO9fy6B44KVY1Ilzb" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\WebstormProjects\UI\ejs_rest_api_mdb" />
+      <recent name="C:\Users\ACER\WebstormProjects\UI\ejs_get_post_request" />
+      <recent name="C:\Users\ACER\WebstormProjects\UI\ejs bootstrap\public\bootstrap\img" />
+      <recent name="C:\Users\ACER\WebstormProjects\UI\ejs bootstrap\public" />
+      <recent name="C:\Users\ACER\WebstormProjects\UI\ejs routing\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\WebstormProjects\UI\ejs routing\public\css" />
+      <recent name="C:\Users\ACER\WebstormProjects\UI\ejs routing\views" />
+      <recent name="C:\Users\ACER\WebstormProjects\untitled\njs routing\views" />
+      <recent name="C:\Users\ACER\WebstormProjects\untitled\Core modules" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.clock.js">
+    <configuration name="cap.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="cap.js" working-dir="$PROJECT_DIR$/Java Script">
+      <method v="2" />
+    </configuration>
+    <configuration name="clock.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="clock.js" working-dir="$PROJECT_DIR$/Java Script">
+      <method v="2" />
+    </configuration>
+    <configuration name="j.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="j.js" working-dir="$PROJECT_DIR$/Java Script">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.j.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b57d07e-1df7-49b4-b0bd-70ac0e01dfc8" name="Default Changelist" comment="" />
+      <created>1567745976572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567745976572</updated>
+      <workItem from="1567745983281" duration="278000" />
+      <workItem from="1577343757821" duration="2391000" />
+      <workItem from="1577347045446" duration="33000" />
+      <workItem from="1577684250876" duration="2305000" />
+      <workItem from="1577937607133" duration="1234000" />
+      <workItem from="1577968188751" duration="1424000" />
+      <workItem from="1581006940282" duration="1176000" />
+      <workItem from="1581008268493" duration="1278000" />
+      <workItem from="1581175341678" duration="1268000" />
+      <workItem from="1581415680438" duration="330000" />
+      <workItem from="1581417234818" duration="4598000" />
+      <workItem from="1581483653714" duration="15185000" />
+      <workItem from="1581655130146" duration="5990000" />
+      <workItem from="1581698131483" duration="7563000" />
+      <workItem from="1581743127013" duration="14811000" />
+      <workItem from="1581835143018" duration="4591000" />
+      <workItem from="1581840488978" duration="117000" />
+      <workItem from="1582044686919" duration="7313000" />
+      <workItem from="1582090110086" duration="11746000" />
+      <workItem from="1582308317914" duration="72000" />
+      <workItem from="1582882798622" duration="13116000" />
+      <workItem from="1582902267623" duration="786000" />
+      <workItem from="1583173378883" duration="130000" />
+      <workItem from="1583217566911" duration="417000" />
+      <workItem from="1583218594923" duration="17736000" />
+      <workItem from="1583251110633" duration="12773000" />
+      <workItem from="1583264040665" duration="120000" />
+      <workItem from="1583264190615" duration="1368000" />
+      <workItem from="1583335203735" duration="11000" />
+      <workItem from="1583336156740" duration="6307000" />
+      <workItem from="1583428571079" duration="219000" />
+      <workItem from="1583510356521" duration="2172000" />
+      <workItem from="1583514433682" duration="3530000" />
+      <workItem from="1583746717473" duration="73000" />
+      <workItem from="1583768616927" duration="1849000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/npm modules/npmapp.js</url>
+          <line>80</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ejs_rest_api/routes/ejsrestapiroutes.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

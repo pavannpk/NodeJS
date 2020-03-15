@@ -1,0 +1,14 @@
+
+.main {
+    display: flex;
+}
+
+#pavannpk{
+    display: flex;
+    align-self: center;
+    position: relative;
+}
+
+.captures{
+    font-size: 13px;
+}

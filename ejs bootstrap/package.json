@@ -1,0 +1,14 @@
+{
+  "name": "ejs-bootstrap",
+  "version": "1.0.0",
+  "description": "express with bootstrap",
+  "main": "ejsbtstp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PAVAN KUAMR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

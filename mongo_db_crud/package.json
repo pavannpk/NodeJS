@@ -1,0 +1,14 @@
+{
+  "name": "mongo_db_crud",
+  "version": "1.0.0",
+  "description": "MDB CRUD",
+  "main": "mdbcrud_local.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PAVAN KUMAR",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.4"
+  }
+}
