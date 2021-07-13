@@ -9,7 +9,7 @@
   "author": "PAVAN KUMAR",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0"
   }
 }
