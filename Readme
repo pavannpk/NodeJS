@@ -1,0 +1,254 @@
+Node.JS - :
+    - it is not a programming language.
+    - its an environment its execute on serverWithHtml side
+    - it is a js runtime(not a framework / library)
+    - runs on chrome v8 engine
+    - it is a installable software for js
+    - written in c++
+    - to develope serverWithHtml side app in js
+    - no support of template engine
+
+------------------------------------------------------------------------------------
+
+    What you should know first
+
+    - Understanding of Js programming Language
+    - Advance features like callbacks, promises, arrow functions
+    - HTTP Protocol -:
+        1.send data client and serverWithHtml
+            - get - fetch data
+            - post - send data to serverWithHtml
+            - put - update data at serverWithHtml
+            - delete - remove data at serverWithHtml
+    - JSON -:
+        1.transfer btw client and serverWithHtml
+        2.recieve data in json format later convert data to our requirement
+
+    - Client - Server Architecture -:
+        1.client send req to serverWithHtml
+        2.serverWithHtml recieve the req and dose some process
+        3.send back to client
+        4.client recieve the response and display
+
+--------------------------------------------------------------------------------------------
+
+    Why to use Node JS -:
+
+        - fast and highly sclable
+        - Asynchronous (Symultaniously) & Non-Blocking I/O
+        - lightweight and efficient serverWithHtml creation
+        - Same JS language for both client $ serverWithHtml
+        - very popular Server Side Web Developmet
+
+-----------------------------------------------------------------------------------------
+
+    Node JS Modules -:
+
+        - Core Modules
+            1.Coming with Node JS Automatically
+                - FS, HTTP, OS, PATH -> you need to import (here we have require instead of import)
+        - Custom Modules
+            1. Own logic
+                - Util
+        - NodeJS Modules(3rd party)
+                - BycryptJS -> Encrypt and Decrypt Password
+                - JWT -> Secret Key
+                - Express -> faster webdevelopment
+            - need package.json
+
+-----------------------------------------------------------------------------------------
+
+    Synchronous Way
+         - we have 1 2 3 4 statements and it will executed one after other
+            if 3rd executioin is in process 4th will have to wait.
+
+    asynchrouns Way (Callbacks, Async-wait, Promises)
+        - there is no disturbance between them.
+        - all data will executed at a time.
+        - mostly we use Async.
+        - We use Callbacks, Async-wait, Promises
+        - here we have call back in sync way there is no call back
+
+----------------------------------------------------------------------------------------------
+
+    JSON -> data in the form of JSON string
+              json - writing - object into string
+                JSON.stringfy()
+              json - reading - string into object
+                JSON.parse()
+
+-------------------------------------------------------------------------------------------------
+    install pacakge.json
+        npm init --yes or npm init
+
+    install 3rd party modules
+        npm i <package-name>
+
+-------------------------------------------------------------------------------------------------
+
+    bcryptjs
+
+    here we import bcrypt bcz we are providing security.
+    Which means database administrator can access user data bcz it shows user passowrds in database.
+    If we add bcrypt. In database password will not shown directly it will be in hashedPassword.
+
+    users data we store in databse without bcrypt its easy to loose userdata databse adminstrators easily stolen user info,
+    thats why we are using bcrypt module.
+
+        Usage Sync
+            /*it is for creating hashedPassword*/
+            //10 times applied sync
+            let salt = bcrypt.genSaltSync(10);
+            let hashedPassword = bcrypt.hashSync(user.password, salt);
+
+            /*now display updated hashedPassword*/
+            let updatedPassword = {
+                //i keep existing data
+                ...user,
+                password: hashedPassword
+            };
+            console.log(updatedPassword);
+
+-------------------------------------------------------------------------------------------------
+
+    JSON Web Tokens
+
+        JSON Web Token (JWT) is a means of representing claims to be transferred
+        between two parties.
+        The claims in a JWT are encoded as a JSON object that is digitally signed
+        using JSON Web Signature (JWS) and/or encrypted using JSON Web Encryption
+
+        /*create a token based on payload info with some secerte key
+        password will not store inside token never and ever*/
+
+-------------------------------------------------------------------------------------------------
+
+    DOTENV
+
+        Dotenv is a zero-dependency module that loads environment variables from a
+        .env file into process.env. Storing configuration in the environment separate
+        from code is based on The Twelve-Factor App methodology.
+
+-------------------------------------------------------------------------------------------------
+
+    Garavatar
+
+        Gravatar (a portmanteau of globally recognized avatar) is a service for providing
+        globally unique avatars and was created by Tom Preston-Werner. Since 2007,
+        it has been owned by Automattic, having integrated it into their WordPress.com blogging platform
+
+-------------------------------------------------------------------------------------------------
+
+    Server
+         you need HTTP
+            200 - success
+            300 - redirect
+            400 - un authorized
+            404 - pnf
+            500 - serverWithHtml error
+
+-------------------------------------------------------------------------------------------------
+     ExpressJS - library of NodeJS
+            3rd party for nodeJS
+            Faster webdevelopment for server side apps
+            external styles are easy
+-------------------------------------------------------------------------------------------------
+
+    REST API
+            Perfect way to write url's
+                HTTP Methods - GET(Read), POST(Create), PUT(Update) and DELETE(Delete).
+-------------------------------------------------------------------------------------------------
+
+    By using these we get the form
+            //configure the json form data
+            app.use(express.json());
+            app.use(express.urlencoded({extended: false}));
+
+-------------------------------------------------------------------------------------------------
+    UUID - :
+            3rd party module
+             generate random id
+
+-------------------------------------------------------------------------------------------------
+    For Bit BUcket app we require 4 module
+
+    express - The express framework is built on top of the node.
+              js framework and helps in fast-tracking development
+              of server-based applications. Routes are used to
+              divert users to different parts of the web applications
+              based on the request made.
+
+    cors - if you want to use your own API or files
+            on a different web page you can simply configure
+            CORS to allow that, while still blocking others out.
+
+    mongoose - Mongoose is a JavaScript library that allows you
+               to define schemas with strongly typed data.
+               Once a schema is defined, Mongoose lets you create a
+               Model based on a specific schema. A Mongoose Model
+               is then mapped to a MongoDB Document via the Model's
+               schema definition.
+
+    dotenv - dotenv allows you to separate secrets from your source
+             code. This is useful in a collaborative environment
+             (e.g., work, or open source) where you may not want to
+             share your database login credentials with other people.
+             Instead, you can share the source code while allowing
+             other people to create their own .
+
+-------------------------------------------------------------------------------------------------
+
+        //accept the form data bcz you submit the form
+            //accept to the express server through the request.body
+        //for which format
+        app.use(express.json());
+        app.use(express.urlencoded({extended: false}));
+
+-------------------------------------------------------------------------------------------------
+        Configure router
+        //configure router
+        app.use('/api', require('./router/bitbucketrouter'));
+-------------------------------------------------------------------------------------------------
+
+    i want to connect mongo to node
+
+    Config the .env file
+        in that we write hostname, port, mongourl
+
+
+        //connect to mongodb using mongoose
+        //it returns promise
+        mongoose.connect(process.env.MONGO_DB_LOCAL, {
+            //configuration is required for mongodb
+            useCreateIndex : true,
+            useFindAndModify : false,
+            useNewUrlParser : true,
+            useUnifiedTopology : true
+        }).then((response) => {
+            console.log(`Connected Succesfully to mongoDB.....`);
+        }).catch((err) => {
+            console.error((err));
+            //stop the process
+            process.exit(1);
+        });
+
+-------------------------------------------------------------------------------------------------
+
+        I need to define strict schema for the fields
+        So we create a model, Define the rules
+        What type of datatype
+
+            router.get('/products', async (request, response) => {
+                try {
+                    let products = await Product.find();
+                    //once you recieve the data and send back as json format
+                    response.status(200).json(products);
+                }
+                catch (err) {
+                    console.error(err);
+                    response.status(500).json({msg : err.message})
+                }
+            });
+
+
+            open insomnia and mongocompass

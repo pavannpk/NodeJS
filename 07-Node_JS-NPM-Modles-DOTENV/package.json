@@ -1,0 +1,15 @@
+{
+  "name": "07-Node_JS-NPM-Modles-DOTENV",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dotenv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
